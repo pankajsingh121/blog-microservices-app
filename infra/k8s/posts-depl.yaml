@@ -19,7 +19,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: event-clusterip-srv
+  name: post-clusterip-srv
 spec:
   selector:
     app: posts
